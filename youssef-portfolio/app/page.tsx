@@ -7,12 +7,14 @@ import Expertise from "./components/Expertise";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
-// The portrait is not available yet — once a photo is dropped at
-// public/images/portrait.jpg (or .png / .webp), it replaces the placeholder.
+// Drop a portrait photo in public/images (named "Youssef" or "portrait",
+// as .jpg / .jpeg / .png / .webp) and it replaces the placeholder automatically.
 function findPortrait(): string | null {
-  for (const ext of ["jpg", "jpeg", "png", "webp"]) {
-    if (fs.existsSync(path.join(process.cwd(), "public", "images", `portrait.${ext}`))) {
-      return `/images/portrait.${ext}`;
+  for (const name of ["Youssef", "portrait"]) {
+    for (const ext of ["jpg", "jpeg", "png", "webp"]) {
+      if (fs.existsSync(path.join(process.cwd(), "public", "images", `${name}.${ext}`))) {
+        return `/images/${name}.${ext}`;
+      }
     }
   }
   return null;

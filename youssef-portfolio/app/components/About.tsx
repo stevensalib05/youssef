@@ -5,6 +5,7 @@ import Reveal from "./Reveal";
 
 const credentials = [
   "Ontario Association of Architects (OAA)",
+  "National Council of Architectural Registration Boards (NCARB)",
   "Royal Architectural Institute of Canada (MRAIC)",
   "Residential High-Rise & Mixed-Use",
   "Code Compliance & Contract Documents",
@@ -27,7 +28,7 @@ export default function About({ portraitSrc }: { portraitSrc: string | null }) {
                 src={portraitSrc}
                 alt="Portrait of Youssef Salib"
                 fill
-                className="relative object-cover"
+                className="relative object-cover object-[57%_center]"
                 sizes="(min-width: 1024px) 24rem, 90vw"
               />
             ) : (
@@ -57,7 +58,7 @@ export default function About({ portraitSrc }: { portraitSrc: string | null }) {
                 With 20+ years of experience designing residential high-rise
                 buildings, commercial spaces, medical centres, offices, and
                 plazas, I bring a comprehensive approach to architectural
-                design — providing documents with precision and ensuring strict
+                design; providing documents with precision and ensuring strict
                 compliance with all code requirements, with a strong focus on
                 detail.
               </p>

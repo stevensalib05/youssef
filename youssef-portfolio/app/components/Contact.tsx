@@ -17,7 +17,7 @@ export default function Contact() {
         <Reveal delay={0.15}>
           <p className="mx-auto mt-6 max-w-xl text-lg text-muted">
             Tailored architectural design solutions that balance aesthetic
-            appeal with functionality — sustainable, efficient, and built
+            appeal with functionality; sustainable, efficient, and built
             around your vision.
           </p>
         </Reveal>
