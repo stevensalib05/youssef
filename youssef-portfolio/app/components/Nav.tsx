@@ -35,7 +35,7 @@ export default function Nav() {
         <a href="#top" className="font-display text-xl tracking-wide">
           Youssef Salib
           <span className="ml-2 text-xs font-sans tracking-[0.2em] text-accent">
-            OAA · MRAIC
+            OAA · NCARB · MRAIC
           </span>
         </a>
         <ul className="hidden items-center gap-8 text-sm text-muted sm:flex">

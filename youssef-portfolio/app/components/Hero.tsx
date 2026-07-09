@@ -5,8 +5,8 @@ import { motion } from "motion/react";
 
 const stats = [
   { value: "20+", label: "Years of Experience" },
-  { value: "24", label: "Projects Delivered" },
-  { value: "$300M+", label: "Construction Value" },
+  { value: "35+", label: "Projects Delivered" },
+  { value: "$1B+", label: "Construction Value" },
   { value: "10+", label: "Cities Across Ontario" },
 ];
 
@@ -33,7 +33,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.15, ease }}
           className="mb-5 text-sm uppercase tracking-[0.35em] text-accent"
         >
-          Architect — OAA, MRAIC
+          Architect — OAA, NCARB, MRAIC 
         </motion.p>
 
         <motion.h1
