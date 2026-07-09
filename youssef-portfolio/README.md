@@ -1,3 +1,17 @@
+Portfolio landing page for Youssef Salib, Architect (OAA, MRAIC).
+
+## Adding the portrait photo
+
+The About section shows a styled "YS" placeholder until a photo is added.
+Drop the photo at `public/images/portrait.jpg` (`.jpeg`, `.png`, or `.webp`
+also work) and it will appear automatically — restart/rebuild if the site
+is already running. A 4:5 (portrait) crop fits the frame best.
+
+Project images live in `public/projects/` (extracted from the YS Portfolio
+slide deck) and are mapped to entries in `app/data/projects.ts`.
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
