@@ -6,6 +6,7 @@ import About from "./components/About";
 import Expertise from "./components/Expertise";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import { Analytics } from "@vercel/analytics/next";
 
 // Drop a portrait photo in public/images (named "Youssef" or "portrait",
 // as .jpg / .jpeg / .png / .webp) and it replaces the placeholder automatically.
@@ -29,6 +30,7 @@ export default function Home() {
       <Expertise />
       <Projects />
       <Contact />
+      <Analytics />
     </main>
   );
 }
