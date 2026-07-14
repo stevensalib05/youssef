@@ -42,7 +42,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3, ease }}
           className="font-display max-w-4xl text-5xl leading-[1.05] sm:text-7xl"
         >
-          Designing the skylines communities live in.
+          Designing the high-rise communities we live in.
         </motion.h1>
 
         <motion.p
